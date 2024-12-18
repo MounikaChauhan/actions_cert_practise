@@ -1,10 +1,11 @@
 name: Example2
 on:
-  workflow-dispatch
+  workflow_dispatch:
 
-job: Job1
-run-on: ubuntu-latest
-  steps: 
+jobs: 
+  build:
+    runs-on: ubuntu-latest
+    steps: 
     - name: Step1
     - run: |
         echo "I am in Step1"
