@@ -8,5 +8,5 @@ jobs:
     steps: 
     - uses: actions/checkout@v2
     - name: Step1
-    - run: |
+      run: |
         echo "I am in Step1"
